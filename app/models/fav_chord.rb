@@ -1,0 +1,2 @@
+class FavChord < ApplicationRecord
+end
