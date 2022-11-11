@@ -1,3 +1,3 @@
 class FavChordSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :chord_id, :user_id
 end

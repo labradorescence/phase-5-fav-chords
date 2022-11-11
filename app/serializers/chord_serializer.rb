@@ -1,3 +1,3 @@
 class ChordSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :root, :qualitytype, :note, :image, :sound
 end
