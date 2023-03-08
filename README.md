@@ -32,8 +32,8 @@ WHERE schemaname != 'pg_catalog' AND
 * to see table detail
 Select * from <table_names>
 
+* to see the instance 
 $rails c
 >User.first
 >FavChord.first
 >Chord.first
-

@@ -1,6 +1,9 @@
 import './App.css';
 import { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Chord from './components/Chord';
+import Fav_Chord from './components/Fav_Chord';
+import User from './components/User';
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
           </Route>
           <Route path="/">
             <h1>Page Count: {count}</h1>
+            <Chord />
+            <Fav_Chord />
+            <User />
           </Route>
         </Switch>
       </div>
